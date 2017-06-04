@@ -23,5 +23,6 @@
 -(NSString*)turn:(NSInteger)degrees;
 -(NSString*)makeNoise;
 -(NSString*)vehicleTitleString;
+-(NSString*)vehicleDetailsString;
 
 @end

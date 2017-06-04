@@ -53,12 +53,12 @@
 #pragma mark - Managing the detail item
 - (void)configureView
 {
-    // Update the user interface for the detail item.
+    // Update the user interface for the detail vehicle, if it exists.
     if (self.detailVehicle) {
-        //TODO: Fill this in.
+        self.title = [self.detailVehicle vehicleTitleString];
+        self.vehicleDetailsLabel.text = [self.detailVehicle vehicleDetailsString];
     }
 }
-
 #pragma mark - IBActions
 
 -(IBAction)turn
