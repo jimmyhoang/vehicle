@@ -23,6 +23,7 @@
 		F5961A4E17DD013A008D39EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5961A4C17DD013A008D39EA /* InfoPlist.strings */; };
 		F5961A5017DD013A008D39EA /* VehiclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5961A4F17DD013A008D39EA /* VehiclesTests.m */; };
 		F5961A5B17DD04AF008D39EA /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = F5961A5A17DD04AF008D39EA /* Vehicle.m */; };
+		FF4BC6BF1EE4BF4D004A74D7 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BC6BE1EE4BF4D004A74D7 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F5961A4F17DD013A008D39EA /* VehiclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehiclesTests.m; sourceTree = "<group>"; };
 		F5961A5917DD04AF008D39EA /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 		F5961A5A17DD04AF008D39EA /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		FF4BC6BD1EE4BF4D004A74D7 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		FF4BC6BE1EE4BF4D004A74D7 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				F5961A3317DD013A008D39EA /* Main.storyboard */,
 				F5961A5917DD04AF008D39EA /* Vehicle.h */,
 				F5961A5A17DD04AF008D39EA /* Vehicle.m */,
+				FF4BC6BD1EE4BF4D004A74D7 /* Car.h */,
+				FF4BC6BE1EE4BF4D004A74D7 /* Car.m */,
 				F5961A3617DD013A008D39EA /* VehicleListTableViewController.h */,
 				F5961A3717DD013A008D39EA /* VehicleListTableViewController.m */,
 				F5961A3917DD013A008D39EA /* VehicleDetailViewController.h */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4BC6BF1EE4BF4D004A74D7 /* Car.m in Sources */,
 				F5961A3217DD013A008D39EA /* AppDelegate.m in Sources */,
 				F5961A3817DD013A008D39EA /* VehicleListTableViewController.m in Sources */,
 				F5961A2E17DD013A008D39EA /* main.m in Sources */,
@@ -466,6 +472,7 @@
 				F5961A5517DD013A008D39EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5961A5617DD013A008D39EA /* Build configuration list for PBXNativeTarget "VehiclesTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				F5961A5817DD013A008D39EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
